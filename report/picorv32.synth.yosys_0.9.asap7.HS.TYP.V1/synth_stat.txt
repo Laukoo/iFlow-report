@@ -1,0 +1,60 @@
+
+17. Printing statistics.
+
+=== picorv32 ===
+
+   Number of wires:              16225
+   Number of wire bits:          16607
+   Number of public wires:          91
+   Number of public wire bits:     473
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16505
+     AND2x2_ASAP7_75t_R            230
+     AND2x4_ASAP7_75t_R             60
+     AND2x6_ASAP7_75t_R             64
+     AND3x2_ASAP7_75t_R            193
+     AND3x4_ASAP7_75t_R              2
+     AND4x2_ASAP7_75t_R             23
+     AND5x2_ASAP7_75t_R             15
+     AO221x2_ASAP7_75t_R           196
+     AO22x2_ASAP7_75t_R            137
+     AO31x2_ASAP7_75t_R            290
+     AO32x2_ASAP7_75t_R             39
+     BUFx10_ASAP7_75t_R              2
+     BUFx16f_ASAP7_75t_R           308
+     BUFx24_ASAP7_75t_R             44
+     BUFx2_ASAP7_75t_R            3707
+     BUFx3_ASAP7_75t_R             203
+     BUFx4_ASAP7_75t_R               8
+     BUFx4f_ASAP7_75t_R             98
+     BUFx6f_ASAP7_75t_R            138
+     BUFx8_ASAP7_75t_R             267
+     CKINVDCx10_ASAP7_75t_R          1
+     DFFLQNx2_ASAP7_75t_R         1613
+     INVx2_ASAP7_75t_R            1478
+     INVx3_ASAP7_75t_R               7
+     INVx4_ASAP7_75t_R               3
+     MAJx3_ASAP7_75t_R              53
+     NAND2x2_ASAP7_75t_R          1382
+     NAND3x2_ASAP7_75t_R           190
+     NOR2x2_ASAP7_75t_R            576
+     NOR3x2_ASAP7_75t_R            413
+     OA211x2_ASAP7_75t_R          1084
+     OA21x2_ASAP7_75t_R           1737
+     OA221x2_ASAP7_75t_R            24
+     OA22x2_ASAP7_75t_R             52
+     OA31x2_ASAP7_75t_R            466
+     OR2x4_ASAP7_75t_R             266
+     OR3x4_ASAP7_75t_R             545
+     OR4x2_ASAP7_75t_R             268
+     OR5x2_ASAP7_75t_R              82
+     TIELOx1_ASAP7_75t_R             1
+     XNOR2x2_ASAP7_75t_R            19
+     XOR2x2_ASAP7_75t_R            221
+
+   Area for cell type \TIELOx1_ASAP7_75t_R is unknown!
+
+   Chip area for module '\picorv32': 10916.148060
+

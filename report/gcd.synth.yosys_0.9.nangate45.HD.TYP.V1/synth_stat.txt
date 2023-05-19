@@ -1,0 +1,307 @@
+
+16. Printing statistics.
+
+=== GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e ===
+
+   Number of wires:                 35
+   Number of wire bits:             36
+   Number of public wires:          16
+   Number of public wire bits:      17
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 29
+     AND2_X4                         2
+     AND3_X1                         2
+     AOI21_X1                        3
+     AOI22_X1                        1
+     BUF_X1                         15
+     INV_X32                         2
+     NAND2_X2                        1
+     NOR2_X1                         2
+     RegRst_0x9f365fdf6c8998a        1
+
+   Area for cell type \RegRst_0x9f365fdf6c8998a is unknown!
+
+   Chip area for module '\GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e': 44.422000
+
+=== GcdUnitDpathRTL_0x4d0fc71ead8d3d9e ===
+
+   Number of wires:                 75
+   Number of wire bits:            121
+   Number of public wires:          75
+   Number of public wire bits:     121
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     LtComparator_0x422b1f52edd46a85      1
+     Mux_0x683fa1a418b072c9          1
+     Mux_0xdd6473406d1a99a           1
+     RegEn_0x68db79c4ec1d6e5b        2
+     Subtractor_0x422b1f52edd46a85      1
+     ZeroComparator_0x422b1f52edd46a85      1
+
+   Area for cell type \RegEn_0x68db79c4ec1d6e5b is unknown!
+   Area for cell type \LtComparator_0x422b1f52edd46a85 is unknown!
+   Area for cell type \ZeroComparator_0x422b1f52edd46a85 is unknown!
+   Area for cell type \Mux_0x683fa1a418b072c9 is unknown!
+   Area for cell type \Mux_0xdd6473406d1a99a is unknown!
+   Area for cell type \Subtractor_0x422b1f52edd46a85 is unknown!
+
+=== LtComparator_0x422b1f52edd46a85 ===
+
+   Number of wires:                107
+   Number of wire bits:            137
+   Number of public wires:           5
+   Number of public wire bits:      35
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                103
+     AND2_X1                         4
+     AND2_X2                         1
+     AND2_X4                         2
+     AND3_X1                         1
+     AND3_X2                         1
+     AOI21_X1                        3
+     AOI21_X2                        1
+     AOI221_X1                       1
+     AOI221_X2                       1
+     AOI22_X1                        1
+     BUF_X1                         33
+     INV_X1                          9
+     INV_X16                         3
+     INV_X2                          4
+     INV_X32                         1
+     INV_X4                          2
+     NAND2_X1                        4
+     NAND3_X1                        2
+     NAND4_X1                        3
+     NOR2_X1                         7
+     NOR2_X2                         2
+     NOR3_X1                         2
+     OAI21_X1                        3
+     OAI21_X2                        2
+     OR2_X1                          3
+     OR2_X2                          1
+     XNOR2_X1                        1
+     XNOR2_X2                        5
+
+   Chip area for module '\LtComparator_0x422b1f52edd46a85': 129.542000
+
+=== Mux_0x683fa1a418b072c9 ===
+
+   Number of wires:                112
+   Number of wire bits:            173
+   Number of public wires:           7
+   Number of public wire bits:      68
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                121
+     AND2_X2                         1
+     AOI22_X1                       16
+     BUF_X1                         66
+     BUF_X4                          2
+     BUF_X8                          1
+     INV_X32                         1
+     NAND2_X1                       31
+     NAND2_X2                        1
+     NOR2_X4                         1
+     XNOR2_X2                        1
+
+   Chip area for module '\Mux_0x683fa1a418b072c9': 122.360000
+
+=== Mux_0xdd6473406d1a99a ===
+
+   Number of wires:                 56
+   Number of wire bits:            101
+   Number of public wires:           6
+   Number of public wire bits:      51
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 66
+     BUF_X1                         49
+     BUF_X32                         1
+     MUX2_X1                        16
+
+   Chip area for module '\Mux_0xdd6473406d1a99a': 81.928000
+
+=== RegEn_0x68db79c4ec1d6e5b ===
+
+   Number of wires:                 87
+   Number of wire bits:            117
+   Number of public wires:           5
+   Number of public wire bits:      35
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 82
+     BUF_X1                         49
+     BUF_X32                         1
+     DFF_X1                         16
+     MUX2_X1                        16
+
+   Chip area for module '\RegEn_0x68db79c4ec1d6e5b': 154.280000
+
+=== RegRst_0x9f365fdf6c8998a ===
+
+   Number of wires:                 15
+   Number of wire bits:             17
+   Number of public wires:           4
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 11
+     BUF_X1                          5
+     DFF_X1                          2
+     INV_X16                         2
+     NOR2_X1                         2
+
+   Chip area for module '\RegRst_0x9f365fdf6c8998a': 23.674000
+
+=== Subtractor_0x422b1f52edd46a85 ===
+
+   Number of wires:                146
+   Number of wire bits:            191
+   Number of public wires:           5
+   Number of public wire bits:      50
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                157
+     AND2_X1                        10
+     AND2_X2                         2
+     AND3_X1                         2
+     AOI21_X1                        4
+     AOI21_X2                        2
+     AOI21_X4                        1
+     BUF_X1                         48
+     INV_X1                         21
+     INV_X16                         1
+     INV_X2                          1
+     NAND2_X1                        4
+     NAND2_X2                        2
+     NAND3_X1                        2
+     NOR2_X1                        13
+     NOR2_X2                         2
+     NOR2_X4                         2
+     NOR3_X1                         1
+     NOR3_X4                         2
+     OAI211_X2                       1
+     OAI21_X1                        4
+     OAI21_X2                        1
+     OAI221_X1                       1
+     OAI221_X4                       1
+     OR3_X1                          3
+     XNOR2_X1                       17
+     XNOR2_X2                        7
+     XOR2_X1                         2
+
+   Chip area for module '\Subtractor_0x422b1f52edd46a85': 183.008000
+
+=== ZeroComparator_0x422b1f52edd46a85 ===
+
+   Number of wires:                 25
+   Number of wire bits:             40
+   Number of public wires:           4
+   Number of public wire bits:      19
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 22
+     AND4_X1                         1
+     BUF_X1                         17
+     NOR4_X2                         3
+     NOR4_X4                         1
+
+   Chip area for module '\ZeroComparator_0x422b1f52edd46a85': 27.132000
+
+=== gcd ===
+
+   Number of wires:                 15
+   Number of wire bits:             61
+   Number of public wires:          15
+   Number of public wire bits:      61
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e      1
+     GcdUnitDpathRTL_0x4d0fc71ead8d3d9e      1
+
+   Area for cell type \GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e is unknown!
+   Area for cell type \GcdUnitDpathRTL_0x4d0fc71ead8d3d9e is unknown!
+
+=== design hierarchy ===
+
+   gcd                               1
+     GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e      1
+       RegRst_0x9f365fdf6c8998a      1
+     GcdUnitDpathRTL_0x4d0fc71ead8d3d9e      1
+       LtComparator_0x422b1f52edd46a85      1
+       Mux_0x683fa1a418b072c9        1
+       Mux_0xdd6473406d1a99a         1
+       RegEn_0x68db79c4ec1d6e5b      2
+       Subtractor_0x422b1f52edd46a85      1
+       ZeroComparator_0x422b1f52edd46a85      1
+
+   Number of wires:                760
+   Number of wire bits:           1111
+   Number of public wires:         147
+   Number of public wire bits:     498
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                672
+     AND2_X1                        14
+     AND2_X2                         4
+     AND2_X4                         4
+     AND3_X1                         5
+     AND3_X2                         1
+     AND4_X1                         1
+     AOI21_X1                       10
+     AOI21_X2                        3
+     AOI21_X4                        1
+     AOI221_X1                       1
+     AOI221_X2                       1
+     AOI22_X1                       18
+     BUF_X1                        331
+     BUF_X32                         3
+     BUF_X4                          2
+     BUF_X8                          1
+     DFF_X1                         34
+     INV_X1                         30
+     INV_X16                         6
+     INV_X2                          5
+     INV_X32                         4
+     INV_X4                          2
+     MUX2_X1                        48
+     NAND2_X1                       39
+     NAND2_X2                        4
+     NAND3_X1                        4
+     NAND4_X1                        3
+     NOR2_X1                        24
+     NOR2_X2                         4
+     NOR2_X4                         3
+     NOR3_X1                         3
+     NOR3_X4                         2
+     NOR4_X2                         3
+     NOR4_X4                         1
+     OAI211_X2                       1
+     OAI21_X1                        7
+     OAI21_X2                        3
+     OAI221_X1                       1
+     OAI221_X4                       1
+     OR2_X1                          3
+     OR2_X2                          1
+     OR3_X1                          3
+     XNOR2_X1                       18
+     XNOR2_X2                       13
+     XOR2_X1                         2
+
+   Chip area for top module '\gcd': 920.626000
+

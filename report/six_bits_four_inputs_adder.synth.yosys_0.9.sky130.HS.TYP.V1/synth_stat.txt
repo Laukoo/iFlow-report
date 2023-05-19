@@ -1,0 +1,120 @@
+
+19. Printing statistics.
+
+=== seven_bits_fast_add ===
+
+   Number of wires:                 49
+   Number of wire bits:             68
+   Number of public wires:           5
+   Number of public wire bits:      24
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 53
+     sky130_fd_sc_hs__a21o_1         3
+     sky130_fd_sc_hs__a22o_1         3
+     sky130_fd_sc_hs__a2bb2oi_1      1
+     sky130_fd_sc_hs__and2_2         1
+     sky130_fd_sc_hs__and4_1         1
+     sky130_fd_sc_hs__buf_1         24
+     sky130_fd_sc_hs__nand2_1        4
+     sky130_fd_sc_hs__nand2_2        1
+     sky130_fd_sc_hs__nand2_4        1
+     sky130_fd_sc_hs__nand3_1        1
+     sky130_fd_sc_hs__o21a_1         1
+     sky130_fd_sc_hs__o21ai_4        1
+     sky130_fd_sc_hs__or2_1          3
+     sky130_fd_sc_hs__or2_4          2
+     sky130_fd_sc_hs__xnor3_1        4
+     sky130_fd_sc_hs__xor3_4         2
+
+   Chip area for module '\seven_bits_fast_add': 561.038400
+
+=== six_bits_fast_add ===
+
+   Number of wires:                 42
+   Number of wire bits:             58
+   Number of public wires:           4
+   Number of public wire bits:      20
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 45
+     sky130_fd_sc_hs__a21bo_1        1
+     sky130_fd_sc_hs__a21o_1         2
+     sky130_fd_sc_hs__a21oi_1        1
+     sky130_fd_sc_hs__a22o_1         1
+     sky130_fd_sc_hs__a2bb2oi_1      1
+     sky130_fd_sc_hs__a31oi_1        1
+     sky130_fd_sc_hs__buf_1         20
+     sky130_fd_sc_hs__nand2_1        7
+     sky130_fd_sc_hs__nand3b_1       1
+     sky130_fd_sc_hs__o211ai_2       1
+     sky130_fd_sc_hs__o21ai_4        1
+     sky130_fd_sc_hs__or2_1          3
+     sky130_fd_sc_hs__xnor3_4        2
+     sky130_fd_sc_hs__xor3_2         1
+     sky130_fd_sc_hs__xor3_4         2
+
+   Chip area for module '\six_bits_fast_add': 473.126400
+
+=== six_bits_four_inputs_adder ===
+
+   Number of wires:                 22
+   Number of wire bits:             49
+   Number of public wires:          21
+   Number of public wire bits:      48
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     seven_bits_fast_add             1
+     six_bits_fast_add               2
+     sky130_fd_sc_hs__conb_1         1
+
+   Area for cell type \six_bits_fast_add is unknown!
+   Area for cell type \seven_bits_fast_add is unknown!
+
+   Chip area for module '\six_bits_four_inputs_adder': 4.795200
+
+=== design hierarchy ===
+
+   six_bits_four_inputs_adder        1
+     seven_bits_fast_add             1
+     six_bits_fast_add               2
+
+   Number of wires:                155
+   Number of wire bits:            233
+   Number of public wires:          34
+   Number of public wire bits:     112
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                144
+     sky130_fd_sc_hs__a21bo_1        2
+     sky130_fd_sc_hs__a21o_1         7
+     sky130_fd_sc_hs__a21oi_1        2
+     sky130_fd_sc_hs__a22o_1         5
+     sky130_fd_sc_hs__a2bb2oi_1      3
+     sky130_fd_sc_hs__a31oi_1        2
+     sky130_fd_sc_hs__and2_2         1
+     sky130_fd_sc_hs__and4_1         1
+     sky130_fd_sc_hs__buf_1         64
+     sky130_fd_sc_hs__conb_1         1
+     sky130_fd_sc_hs__nand2_1       18
+     sky130_fd_sc_hs__nand2_2        1
+     sky130_fd_sc_hs__nand2_4        1
+     sky130_fd_sc_hs__nand3_1        1
+     sky130_fd_sc_hs__nand3b_1       2
+     sky130_fd_sc_hs__o211ai_2       2
+     sky130_fd_sc_hs__o21a_1         1
+     sky130_fd_sc_hs__o21ai_4        3
+     sky130_fd_sc_hs__or2_1          9
+     sky130_fd_sc_hs__or2_4          2
+     sky130_fd_sc_hs__xnor3_1        4
+     sky130_fd_sc_hs__xnor3_4        4
+     sky130_fd_sc_hs__xor3_2         2
+     sky130_fd_sc_hs__xor3_4         6
+
+   Chip area for top module '\six_bits_four_inputs_adder': 1512.086400
+

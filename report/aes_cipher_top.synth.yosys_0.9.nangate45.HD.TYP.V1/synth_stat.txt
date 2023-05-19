@@ -1,0 +1,245 @@
+
+21. Printing statistics.
+
+=== aes_cipher_top ===
+
+   Number of wires:               3127
+   Number of wire bits:           3508
+   Number of public wires:         652
+   Number of public wire bits:    1033
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2620
+     AND2_X1                         6
+     AND2_X2                        69
+     AOI211_X2                       1
+     AOI21_X1                        4
+     AOI21_X2                        1
+     BUF_X1                        910
+     BUF_X32                         3
+     BUF_X4                         31
+     BUF_X8                          2
+     CLKBUF_X1                       4
+     CLKBUF_X3                       1
+     DFF_X1                        390
+     INV_X1                          6
+     INV_X2                          1
+     INV_X32                         1
+     MUX2_X1                       128
+     NAND2_X1                      147
+     NAND2_X2                        1
+     NOR2_X1                       106
+     NOR2_X2                         4
+     NOR2_X4                         1
+     NOR4_X1                         1
+     OAI211_X2                       1
+     OAI21_X1                        1
+     OR2_X1                          7
+     OR2_X2                         46
+     OR2_X4                          4
+     OR3_X4                          1
+     XNOR2_X1                      359
+     XNOR2_X2                      198
+     XOR2_X1                       153
+     XOR2_X2                        15
+     aes_key_expand_128              1
+     aes_sbox                       16
+
+   Area for cell type \aes_key_expand_128 is unknown!
+   Area for cell type \aes_sbox is unknown!
+
+   Chip area for module '\aes_cipher_top': 4632.390000
+
+=== aes_key_expand_128 ===
+
+   Number of wires:               1114
+   Number of wire bits:           1365
+   Number of public wires:          71
+   Number of public wire bits:     322
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1048
+     BUF_X1                        449
+     BUF_X4                         16
+     BUF_X8                          1
+     DFF_X1                        128
+     INV_X1                          1
+     MUX2_X1                       128
+     NAND2_X1                       64
+     OAI21_X1                       32
+     XNOR2_X1                       64
+     XNOR2_X2                       96
+     XOR2_X1                        32
+     XOR2_X2                        32
+     aes_rcon                        1
+     aes_sbox                        4
+
+   Area for cell type \aes_sbox is unknown!
+   Area for cell type \aes_rcon is unknown!
+
+   Chip area for module '\aes_key_expand_128': 1779.540000
+
+=== aes_rcon ===
+
+   Number of wires:                 92
+   Number of wire bits:            123
+   Number of public wires:           7
+   Number of public wire bits:      38
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                109
+     AND2_X4                         2
+     AND4_X1                         1
+     AOI21_X1                        4
+     BUF_X1                         65
+     DFF_X1                         12
+     INV_X1                          4
+     INV_X2                          1
+     LOGIC0_X1                       1
+     NAND2_X2                        1
+     NAND3_X1                        2
+     NAND4_X1                        3
+     NOR2_X1                         4
+     NOR2_X2                         1
+     NOR3_X1                         1
+     OAI21_X1                        3
+     OR2_X1                          1
+     OR4_X1                          1
+     XNOR2_X1                        1
+     XNOR2_X2                        1
+
+   Chip area for module '\aes_rcon': 143.374000
+
+=== aes_sbox ===
+
+   Number of wires:                763
+   Number of wire bits:            777
+   Number of public wires:           2
+   Number of public wire bits:      16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                769
+     AND2_X1                       188
+     AND2_X2                        22
+     AND2_X4                         8
+     AND3_X1                        22
+     AND4_X1                        58
+     AOI211_X2                       1
+     AOI211_X4                      13
+     AOI21_X1                       26
+     AOI221_X1                       2
+     AOI221_X2                       2
+     AOI221_X4                       7
+     AOI22_X1                       16
+     BUF_X1                         16
+     BUF_X2                         29
+     BUF_X32                         2
+     BUF_X4                         15
+     BUF_X8                          4
+     CLKBUF_X2                       2
+     INV_X1                         62
+     INV_X16                         2
+     INV_X2                          2
+     INV_X4                          2
+     NAND2_X1                       39
+     NAND3_X1                        4
+     NAND4_X1                       18
+     NOR2_X1                        25
+     NOR2_X2                         2
+     NOR2_X4                         1
+     NOR3_X1                         8
+     NOR4_X1                        57
+     NOR4_X2                         1
+     NOR4_X4                         1
+     OAI211_X2                      17
+     OAI21_X1                       45
+     OAI221_X1                       4
+     OAI22_X1                        5
+     OR2_X1                         16
+     OR3_X1                          5
+     OR4_X1                         11
+     OR4_X2                          5
+     OR4_X4                          3
+     XNOR2_X1                        1
+
+   Chip area for module '\aes_sbox': 992.712000
+
+=== design hierarchy ===
+
+   aes_cipher_top                    1
+     aes_key_expand_128              1
+       aes_rcon                      1
+       aes_sbox                      4
+     aes_sbox                       16
+
+   Number of wires:              19593
+   Number of wire bits:          20536
+   Number of public wires:         770
+   Number of public wire bits:    1713
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              19135
+     AND2_X1                      3766
+     AND2_X2                       509
+     AND2_X4                       162
+     AND3_X1                       440
+     AND4_X1                      1161
+     AOI211_X2                      21
+     AOI211_X4                     260
+     AOI21_X1                      528
+     AOI21_X2                        1
+     AOI221_X1                      40
+     AOI221_X2                      40
+     AOI221_X4                     140
+     AOI22_X1                      320
+     BUF_X1                       1744
+     BUF_X2                        580
+     BUF_X32                        43
+     BUF_X4                        347
+     BUF_X8                         83
+     CLKBUF_X1                       4
+     CLKBUF_X2                      40
+     CLKBUF_X3                       1
+     DFF_X1                        530
+     INV_X1                       1251
+     INV_X16                        40
+     INV_X2                         42
+     INV_X32                         1
+     INV_X4                         40
+     LOGIC0_X1                       1
+     MUX2_X1                       256
+     NAND2_X1                      991
+     NAND2_X2                        2
+     NAND3_X1                       82
+     NAND4_X1                      363
+     NOR2_X1                       610
+     NOR2_X2                        45
+     NOR2_X4                        21
+     NOR3_X1                       161
+     NOR4_X1                      1141
+     NOR4_X2                        20
+     NOR4_X4                        20
+     OAI211_X2                     341
+     OAI21_X1                      936
+     OAI221_X1                      80
+     OAI22_X1                      100
+     OR2_X1                        328
+     OR2_X2                         46
+     OR2_X4                          4
+     OR3_X1                        100
+     OR3_X4                          1
+     OR4_X1                        221
+     OR4_X2                        100
+     OR4_X4                         60
+     XNOR2_X1                      444
+     XNOR2_X2                      295
+     XOR2_X1                       185
+     XOR2_X2                        47
+
+   Chip area for top module '\aes_cipher_top': 26409.544000
+

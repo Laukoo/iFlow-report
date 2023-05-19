@@ -1,0 +1,60 @@
+
+16. Printing statistics.
+
+=== picorv32 ===
+
+   Number of wires:              15272
+   Number of wire bits:          15654
+   Number of public wires:        1569
+   Number of public wire bits:    1951
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              13939
+     AND2_X1                       460
+     AND2_X2                        49
+     AND2_X4                        61
+     AND3_X1                       189
+     AND3_X2                         3
+     AND4_X1                        40
+     AND4_X2                         1
+     AOI211_X2                       1
+     AOI211_X4                     169
+     AOI21_X1                      547
+     AOI221_X4                      71
+     AOI22_X1                      122
+     BUF_X1                       3623
+     BUF_X2                         61
+     BUF_X4                        562
+     BUF_X8                         29
+     CLKBUF_X1                      32
+     CLKBUF_X2                     124
+     DFF_X1                       1613
+     INV_X1                        438
+     INV_X2                         18
+     LOGIC0_X1                       1
+     MUX2_X1                      2160
+     NAND2_X1                      419
+     NAND2_X2                        2
+     NAND3_X1                      397
+     NAND4_X1                      125
+     NOR2_X1                       476
+     NOR2_X2                         6
+     NOR3_X1                       128
+     NOR3_X2                         2
+     NOR4_X1                        33
+     OAI211_X2                     460
+     OAI21_X1                      642
+     OAI21_X2                        6
+     OAI221_X1                      33
+     OAI22_X1                      114
+     OR2_X1                        360
+     OR2_X2                          5
+     OR3_X1                        116
+     OR4_X1                          4
+     XNOR2_X1                      128
+     XOR2_X1                       108
+     XOR2_X2                         1
+
+   Chip area for module '\picorv32': 22759.758000
+

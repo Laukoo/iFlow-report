@@ -1,0 +1,23 @@
+
+18. Executing CHECK pass (checking for obvious problems).
+checking module seven_bits_fast_add..
+Warning: Wire seven_bits_fast_add.\sum [7] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [6] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [5] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [4] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [3] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [2] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [1] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\sum [0] is used but has no driver.
+Warning: Wire seven_bits_fast_add.\cout is used but has no driver.
+checking module six_bits_fast_add..
+Warning: Wire six_bits_fast_add.\sum [6] is used but has no driver.
+Warning: Wire six_bits_fast_add.\sum [5] is used but has no driver.
+Warning: Wire six_bits_fast_add.\sum [4] is used but has no driver.
+Warning: Wire six_bits_fast_add.\sum [3] is used but has no driver.
+Warning: Wire six_bits_fast_add.\sum [2] is used but has no driver.
+Warning: Wire six_bits_fast_add.\sum [1] is used but has no driver.
+Warning: Wire six_bits_fast_add.\sum [0] is used but has no driver.
+checking module six_bits_four_inputs_adder..
+Warning: Wire six_bits_four_inputs_adder.$auto$hilomap.cc:47:hilomap_worker$366 is used but has no driver.
+found and reported 17 problems.

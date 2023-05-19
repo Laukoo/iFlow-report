@@ -1,0 +1,290 @@
+
+17. Printing statistics.
+
+=== GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e ===
+
+   Number of wires:                 37
+   Number of wire bits:             38
+   Number of public wires:          16
+   Number of public wire bits:      17
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 31
+     AND3x2_ASAP7_75t_R              1
+     AND3x4_ASAP7_75t_R              1
+     BUFx2_ASAP7_75t_R              15
+     CKINVDCx16_ASAP7_75t_R          1
+     INVx2_ASAP7_75t_R               1
+     INVx4_ASAP7_75t_R               1
+     NAND3x2_ASAP7_75t_R             1
+     NOR2x2_ASAP7_75t_R              5
+     NOR3x2_ASAP7_75t_R              2
+     OA21x2_ASAP7_75t_R              2
+     RegRst_0x9f365fdf6c8998a        1
+
+   Area for cell type \RegRst_0x9f365fdf6c8998a is unknown!
+
+   Chip area for module '\GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e': 21.942900
+
+=== GcdUnitDpathRTL_0x4d0fc71ead8d3d9e ===
+
+   Number of wires:                 75
+   Number of wire bits:            121
+   Number of public wires:          75
+   Number of public wire bits:     121
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     LtComparator_0x422b1f52edd46a85      1
+     Mux_0x683fa1a418b072c9          1
+     Mux_0xdd6473406d1a99a           1
+     RegEn_0x68db79c4ec1d6e5b        2
+     Subtractor_0x422b1f52edd46a85      1
+     ZeroComparator_0x422b1f52edd46a85      1
+
+   Area for cell type \RegEn_0x68db79c4ec1d6e5b is unknown!
+   Area for cell type \LtComparator_0x422b1f52edd46a85 is unknown!
+   Area for cell type \ZeroComparator_0x422b1f52edd46a85 is unknown!
+   Area for cell type \Mux_0x683fa1a418b072c9 is unknown!
+   Area for cell type \Mux_0xdd6473406d1a99a is unknown!
+   Area for cell type \Subtractor_0x422b1f52edd46a85 is unknown!
+
+=== LtComparator_0x422b1f52edd46a85 ===
+
+   Number of wires:                101
+   Number of wire bits:            131
+   Number of public wires:           5
+   Number of public wire bits:      35
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 97
+     AND2x2_ASAP7_75t_R              1
+     AND2x4_ASAP7_75t_R              3
+     AND5x2_ASAP7_75t_R              1
+     AO22x2_ASAP7_75t_R              1
+     AO31x2_ASAP7_75t_R              1
+     BUFx2_ASAP7_75t_R              33
+     INVx2_ASAP7_75t_R              14
+     INVx3_ASAP7_75t_R               2
+     INVx6_ASAP7_75t_R               1
+     INVx8_ASAP7_75t_R               2
+     MAJx2_ASAP7_75t_R               1
+     MAJx3_ASAP7_75t_R               2
+     NAND2x2_ASAP7_75t_R             4
+     NAND3x2_ASAP7_75t_R             1
+     NOR2x2_ASAP7_75t_R              6
+     OA211x2_ASAP7_75t_R             1
+     OA21x2_ASAP7_75t_R              1
+     OA221x2_ASAP7_75t_R             2
+     OR2x4_ASAP7_75t_R               3
+     OR3x2_ASAP7_75t_R               4
+     OR3x4_ASAP7_75t_R               2
+     OR4x2_ASAP7_75t_R               1
+     OR5x2_ASAP7_75t_R               2
+     XNOR2x2_ASAP7_75t_R             2
+     XOR2x2_ASAP7_75t_R              6
+
+   Chip area for module '\LtComparator_0x422b1f52edd46a85': 67.155480
+
+=== Mux_0x683fa1a418b072c9 ===
+
+   Number of wires:                 96
+   Number of wire bits:            157
+   Number of public wires:           7
+   Number of public wire bits:      68
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                105
+     AND2x2_ASAP7_75t_R             16
+     AND3x2_ASAP7_75t_R              1
+     AO221x2_ASAP7_75t_R            16
+     BUFx2_ASAP7_75t_R              67
+     BUFx6f_ASAP7_75t_R              2
+     CKINVDCx16_ASAP7_75t_R          1
+     NOR2x2_ASAP7_75t_R              1
+     XNOR2x2_ASAP7_75t_R             1
+
+   Chip area for module '\Mux_0x683fa1a418b072c9': 87.188400
+
+=== Mux_0xdd6473406d1a99a ===
+
+   Number of wires:                 74
+   Number of wire bits:            119
+   Number of public wires:           6
+   Number of public wire bits:      51
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 84
+     BUFx12f_ASAP7_75t_R             1
+     BUFx2_ASAP7_75t_R              49
+     BUFx3_ASAP7_75t_R               1
+     CKINVDCx16_ASAP7_75t_R          1
+     OA21x2_ASAP7_75t_R             16
+     OR2x2_ASAP7_75t_R               8
+     OR2x4_ASAP7_75t_R               8
+
+   Chip area for module '\Mux_0xdd6473406d1a99a': 66.018240
+
+=== RegEn_0x68db79c4ec1d6e5b ===
+
+   Number of wires:                124
+   Number of wire bits:            154
+   Number of public wires:           5
+   Number of public wire bits:      35
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                135
+     BUFx12f_ASAP7_75t_R             1
+     BUFx2_ASAP7_75t_R              67
+     BUFx3_ASAP7_75t_R               1
+     CKINVDCx16_ASAP7_75t_R          1
+     DFFLQNx2_ASAP7_75t_R           16
+     INVx2_ASAP7_75t_R              17
+     OA21x2_ASAP7_75t_R             16
+     OR2x2_ASAP7_75t_R              10
+     OR2x4_ASAP7_75t_R               6
+
+   Chip area for module '\RegEn_0x68db79c4ec1d6e5b': 107.717040
+
+=== RegRst_0x9f365fdf6c8998a ===
+
+   Number of wires:                 21
+   Number of wire bits:             23
+   Number of public wires:           4
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 19
+     AND2x2_ASAP7_75t_R              2
+     BUFx2_ASAP7_75t_R              11
+     DFFLQNx2_ASAP7_75t_R            2
+     INVx2_ASAP7_75t_R               3
+     INVx6_ASAP7_75t_R               1
+
+   Chip area for module '\RegRst_0x9f365fdf6c8998a': 18.283320
+
+=== Subtractor_0x422b1f52edd46a85 ===
+
+   Number of wires:                135
+   Number of wire bits:            180
+   Number of public wires:           5
+   Number of public wire bits:      50
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                146
+     AND2x2_ASAP7_75t_R              6
+     AO221x2_ASAP7_75t_R             2
+     BUFx2_ASAP7_75t_R              48
+     BUFx6f_ASAP7_75t_R              3
+     INVx2_ASAP7_75t_R              15
+     MAJx3_ASAP7_75t_R               4
+     NOR2x2_ASAP7_75t_R             23
+     NOR3x2_ASAP7_75t_R              8
+     OA211x2_ASAP7_75t_R             4
+     OA21x2_ASAP7_75t_R             10
+     XNOR2x2_ASAP7_75t_R            20
+     XOR2x2_ASAP7_75t_R              3
+
+   Chip area for module '\Subtractor_0x422b1f52edd46a85': 89.273340
+
+=== ZeroComparator_0x422b1f52edd46a85 ===
+
+   Number of wires:                 25
+   Number of wire bits:             40
+   Number of public wires:           4
+   Number of public wire bits:      19
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 22
+     BUFx2_ASAP7_75t_R              17
+     NOR2x2_ASAP7_75t_R              1
+     OR4x2_ASAP7_75t_R               2
+     OR5x2_ASAP7_75t_R               2
+
+   Chip area for module '\ZeroComparator_0x422b1f52edd46a85': 20.470320
+
+=== gcd ===
+
+   Number of wires:                 15
+   Number of wire bits:             61
+   Number of public wires:          15
+   Number of public wire bits:      61
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e      1
+     GcdUnitDpathRTL_0x4d0fc71ead8d3d9e      1
+
+   Area for cell type \GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e is unknown!
+   Area for cell type \GcdUnitDpathRTL_0x4d0fc71ead8d3d9e is unknown!
+
+=== design hierarchy ===
+
+   gcd                               1
+     GcdUnitCtrlRTL_0x4d0fc71ead8d3d9e      1
+       RegRst_0x9f365fdf6c8998a      1
+     GcdUnitDpathRTL_0x4d0fc71ead8d3d9e      1
+       LtComparator_0x422b1f52edd46a85      1
+       Mux_0x683fa1a418b072c9        1
+       Mux_0xdd6473406d1a99a         1
+       RegEn_0x68db79c4ec1d6e5b      2
+       Subtractor_0x422b1f52edd46a85      1
+       ZeroComparator_0x422b1f52edd46a85      1
+
+   Number of wires:                827
+   Number of wire bits:           1178
+   Number of public wires:         147
+   Number of public wire bits:     498
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                773
+     AND2x2_ASAP7_75t_R             25
+     AND2x4_ASAP7_75t_R              3
+     AND3x2_ASAP7_75t_R              2
+     AND3x4_ASAP7_75t_R              1
+     AND5x2_ASAP7_75t_R              1
+     AO221x2_ASAP7_75t_R            18
+     AO22x2_ASAP7_75t_R              1
+     AO31x2_ASAP7_75t_R              1
+     BUFx12f_ASAP7_75t_R             3
+     BUFx2_ASAP7_75t_R             374
+     BUFx3_ASAP7_75t_R               3
+     BUFx6f_ASAP7_75t_R              5
+     CKINVDCx16_ASAP7_75t_R          5
+     DFFLQNx2_ASAP7_75t_R           34
+     INVx2_ASAP7_75t_R              67
+     INVx3_ASAP7_75t_R               2
+     INVx4_ASAP7_75t_R               1
+     INVx6_ASAP7_75t_R               2
+     INVx8_ASAP7_75t_R               2
+     MAJx2_ASAP7_75t_R               1
+     MAJx3_ASAP7_75t_R               6
+     NAND2x2_ASAP7_75t_R             4
+     NAND3x2_ASAP7_75t_R             2
+     NOR2x2_ASAP7_75t_R             36
+     NOR3x2_ASAP7_75t_R             10
+     OA211x2_ASAP7_75t_R             5
+     OA21x2_ASAP7_75t_R             61
+     OA221x2_ASAP7_75t_R             2
+     OR2x2_ASAP7_75t_R              28
+     OR2x4_ASAP7_75t_R              23
+     OR3x2_ASAP7_75t_R               4
+     OR3x4_ASAP7_75t_R               2
+     OR4x2_ASAP7_75t_R               3
+     OR5x2_ASAP7_75t_R               4
+     XNOR2x2_ASAP7_75t_R            23
+     XOR2x2_ASAP7_75t_R              9
+
+   Chip area for top module '\gcd': 585.766080
+
